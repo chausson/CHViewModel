@@ -16,6 +16,9 @@
 		06385D251E0A1E2B00C2B6ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06385D231E0A1E2B00C2B6ED /* Main.storyboard */; };
 		06385D271E0A1E2B00C2B6ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06385D261E0A1E2B00C2B6ED /* Assets.xcassets */; };
 		06385D2A1E0A1E2B00C2B6ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06385D281E0A1E2B00C2B6ED /* LaunchScreen.storyboard */; };
+		06AEFDE71E0D22BE0053F15E /* CHTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 06AEFDE61E0D22BE0053F15E /* CHTableView.m */; };
+		06AEFDEA1E0D22CB0053F15E /* CHTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 06AEFDE91E0D22CB0053F15E /* CHTableViewCell.m */; };
+		06AEFDED1E0D22E50053F15E /* CHCellViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 06AEFDEC1E0D22E50053F15E /* CHCellViewModel.m */; };
 		E0E9C30EEC704D977B890F0A /* libPods-Practise.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C6F9BB0124FD970457FCFA93 /* libPods-Practise.a */; };
 /* End PBXBuildFile section */
 
@@ -36,6 +39,12 @@
 		06385D261E0A1E2B00C2B6ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		06385D291E0A1E2B00C2B6ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		06385D2B1E0A1E2B00C2B6ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		06AEFDE51E0D22BE0053F15E /* CHTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHTableView.h; sourceTree = "<group>"; };
+		06AEFDE61E0D22BE0053F15E /* CHTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHTableView.m; sourceTree = "<group>"; };
+		06AEFDE81E0D22CB0053F15E /* CHTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHTableViewCell.h; sourceTree = "<group>"; };
+		06AEFDE91E0D22CB0053F15E /* CHTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHTableViewCell.m; sourceTree = "<group>"; };
+		06AEFDEB1E0D22E50053F15E /* CHCellViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHCellViewModel.h; sourceTree = "<group>"; };
+		06AEFDEC1E0D22E50053F15E /* CHCellViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHCellViewModel.m; sourceTree = "<group>"; };
 		C6F9BB0124FD970457FCFA93 /* libPods-Practise.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Practise.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFB49C023A1684A2E722371B /* Pods-Practise.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Practise.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Practise/Pods-Practise.debug.xcconfig"; sourceTree = "<group>"; };
 		F694211B3A7242624ED4E52E /* Pods-Practise.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Practise.release.xcconfig"; path = "Pods/Target Support Files/Pods-Practise/Pods-Practise.release.xcconfig"; sourceTree = "<group>"; };
@@ -58,6 +67,12 @@
 			children = (
 				0602E59E1E0BB65800F6AB92 /* CHViewModel.h */,
 				0602E59F1E0BB65800F6AB92 /* CHViewModel.m */,
+				06AEFDE51E0D22BE0053F15E /* CHTableView.h */,
+				06AEFDE61E0D22BE0053F15E /* CHTableView.m */,
+				06AEFDE81E0D22CB0053F15E /* CHTableViewCell.h */,
+				06AEFDE91E0D22CB0053F15E /* CHTableViewCell.m */,
+				06AEFDEB1E0D22E50053F15E /* CHCellViewModel.h */,
+				06AEFDEC1E0D22E50053F15E /* CHCellViewModel.m */,
 			);
 			path = CHViewModel;
 			sourceTree = "<group>";
@@ -249,9 +264,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				06385D221E0A1E2B00C2B6ED /* ViewController.m in Sources */,
+				06AEFDED1E0D22E50053F15E /* CHCellViewModel.m in Sources */,
 				0602E5A01E0BB65800F6AB92 /* CHViewModel.m in Sources */,
+				06AEFDEA1E0D22CB0053F15E /* CHTableViewCell.m in Sources */,
 				0602E59C1E0BA6C400F6AB92 /* DetailViewModel.m in Sources */,
 				06385D1F1E0A1E2B00C2B6ED /* AppDelegate.m in Sources */,
+				06AEFDE71E0D22BE0053F15E /* CHTableView.m in Sources */,
 				06385D1C1E0A1E2B00C2B6ED /* main.m in Sources */,
 				0602E5951E0B8FEA00F6AB92 /* DetailViewController.m in Sources */,
 			);

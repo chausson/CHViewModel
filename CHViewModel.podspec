@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 
-  s.name         = "CHView"
+  s.name         = "CHViewModel"
   s.version      = "0.0.1"
   s.summary      = "The ViewModel base on ReactiveCocoa 2.5 using MVVM Design "
   s.description  = "There are two signal in CHViewModel now, you can use push or pop in controller"
@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
                      :tag => "0.0.1"}
 #  s.source_files  = "CHWebView/CHWebViewController.{h.m}"
 #  s.frameworks = 'WebKit', 'JavaScriptCore'
-   s.source_files = "CHWebView/Core"
+   s.source_files = "CHViewModel"
    s.dependency "ReactiveCocoa",'~>2.5'
-   s.resources = "CHViewModel"
+#  s.resources = "CHViewModel"
 end
